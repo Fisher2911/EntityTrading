@@ -1,4 +1,5 @@
 name: EntityTrading
+author: MasterOfTheFish
 main: me.masterofthefish.entitytrading.EntityTrading
 version: 1.0
 api-version: 1.16
