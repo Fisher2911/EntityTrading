@@ -1,0 +1,162 @@
+#type: vanilla
+#levels:
+#  0:
+#    trades-shown: 2
+#    required-points: 0
+#    possible-trades:
+#      0:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: dirt
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: emerald
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: diamond
+#          min-amount: 6
+#          max-amount: 10
+#      1:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: stone
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: cobblestone
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: emerald
+#          min-amount: 6
+#          max-amount: 10
+#      2:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: emerald
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: bone
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: diamond
+#          min-amount: 6
+#          max-amount: 10
+#      3:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: arrow
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: rotten_flesh
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: gold_ingot
+#          min-amount: 6
+#          max-amount: 10
+#  1:
+#    trades-shown: 3
+#    required-points: 7
+#    possible-trades:
+#      0:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: dirt
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: emerald
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: diamond
+#          min-amount: 6
+#          max-amount: 10
+#      1:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: stone
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: cobblestone
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: emerald
+#          min-amount: 6
+#          max-amount: 10
+#      2:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: emerald
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: bone
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: diamond
+#          min-amount: 6
+#          max-amount: 10
+#      3:
+#        points-given-min: 1
+#        points-given-max: 5
+#        sell:
+#          1:
+#            type: vanilla
+#            material: arrow
+#            min-amount: 5
+#            max-amount: 10
+#          2:
+#            type: vanilla
+#            material: rotten_flesh
+#            min-amount: 13
+#            max-amount: 17
+#        receive:
+#          type: vanilla
+#          material: gold_ingot
+#          min-amount: 6
+#          max-amount: 10
