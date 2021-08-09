@@ -69,7 +69,7 @@ public class TradeLoader {
         final String id = file.getName().replace(".yml", "");
         final EntityTrades entityTrades = new EntityTrades(id, tradeLevelMap);
         tradeManager.setEntityTrades(id,
-                new EntityTrades(id, tradeLevelMap));
+                entityTrades);
     }
 
     private List<Trade> getTrades(final ConfigurationSection section) {
