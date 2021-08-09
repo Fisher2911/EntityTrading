@@ -3,7 +3,6 @@ package me.masterofthefish.entitytrading.listeners;
 import me.masterofthefish.entitytrading.EntityTrading;
 import me.masterofthefish.entitytrading.trades.TradeManager;
 import me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.classes.VillagerInventory;
-import me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryCloseEvent;
 import me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerTradeCompleteEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
