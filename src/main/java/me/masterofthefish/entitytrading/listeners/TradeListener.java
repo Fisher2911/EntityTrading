@@ -3,6 +3,7 @@ package me.masterofthefish.entitytrading.listeners;
 import me.masterofthefish.entitytrading.EntityTrading;
 import me.masterofthefish.entitytrading.trades.TradeManager;
 import me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.classes.VillagerInventory;
+import me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryCloseEvent;
 import me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerTradeCompleteEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
@@ -10,6 +11,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractAtEntityEvent;
+import org.bukkit.inventory.EquipmentSlot;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,6 +33,9 @@ public class TradeListener implements Listener {
     public void onClick(final PlayerInteractAtEntityEvent event) {
         final Player player = event.getPlayer();
         final Entity entity = event.getRightClicked();
+        if (event.getHand() != EquipmentSlot.HAND) {
+            return;
+        }
         final VillagerInventory villagerInventory = tradeManager.getEntityTradeMenu(entity, player);
         if (villagerInventory == null) {
             return;
@@ -38,12 +43,6 @@ public class TradeListener implements Listener {
         playerTradingWithMap.put(player.getUniqueId(), entity.getUniqueId());
         villagerInventory.open();
     }
-
-//    @EventHandler
-//    public void onClose(final VillagerInventoryCloseEvent event) {
-//        final Player player = event.getPlayer();
-//        playerTradingWithMap.remove(player.getUniqueId());
-//    }
 
     @EventHandler
     public void onTrade(final VillagerTradeCompleteEvent event) {
@@ -57,6 +56,5 @@ public class TradeListener implements Listener {
             return;
         }
         tradeManager.addPoints(entity, event.getTrade());
-        player.sendMessage("Trade Completed");
     }
 }

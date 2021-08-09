@@ -1,41 +1,41 @@
-me/masterofthefish/entitytrading/trades/EntityTrades.java
- me.masterofthefish.entitytrading.trades.EntityTrades
-me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/events/VillagerInventoryOpenEvent.java
- me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryOpenEvent
-me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/events/VillagerInventoryModifyEvent.java
- me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryModifyEvent
+me/masterofthefish/entitytrading/trades/TradeItem.java
+ me.masterofthefish.entitytrading.trades.TradeItem
+me/masterofthefish/entitytrading/trades/TradeLevel.java
+ me.masterofthefish.entitytrading.trades.TradeLevel
+me/masterofthefish/entitytrading/trades/TradePoints.java
+ me.masterofthefish.entitytrading.trades.TradePoints
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/classes/VillagerInventory.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.classes.VillagerInventory
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/classes/VillagerTrade.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.classes.VillagerTrade
-me/masterofthefish/entitytrading/trades/TradePoints.java
- me.masterofthefish.entitytrading.trades.TradePoints
-me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/adapters/instances/MerchantAdapter_v1_16_R3.java
- me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.adapters.instances.MerchantAdapter_v1_16_R3
+me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/events/VillagerInventoryOpenEvent.java
+ me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryOpenEvent
+me/masterofthefish/entitytrading/trades/EntityTradeData.java
+ me.masterofthefish.entitytrading.trades.EntityTradeData
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/events/VillagerTradeCompleteEvent.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerTradeCompleteEvent
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/adapters/BaseAdapter.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.adapters.BaseAdapter
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/events/VillagerInventoryCloseEvent.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryCloseEvent
+me/masterofthefish/entitytrading/trades/Trade.java
+ me.masterofthefish.entitytrading.trades.Trade
+ me.masterofthefish.entitytrading.trades.Trade$TradeBuilder
+me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/adapters/instances/MerchantAdapter_v1_16_R3.java
+ me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.adapters.instances.MerchantAdapter_v1_16_R3
+me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/events/VillagerInventoryModifyEvent.java
+ me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.events.VillagerInventoryModifyEvent
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/api/MainLoader.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.api.MainLoader
-me/masterofthefish/entitytrading/trades/TradeItem.java
- me.masterofthefish.entitytrading.trades.TradeItem
+me/masterofthefish/entitytrading/trades/EntityTrades.java
+ me.masterofthefish.entitytrading.trades.EntityTrades
 me/masterofthefish/entitytrading/trades/TradeManager.java
  me.masterofthefish.entitytrading.trades.TradeManager
 me/masterofthefish/entitytrading/villagerguiapi/masecla/villager/api/AdapterLoader.java
  me.masterofthefish.entitytrading.villagerguiapi.masecla.villager.api.AdapterLoader
 me/masterofthefish/entitytrading/config/TradeLoader.java
  me.masterofthefish.entitytrading.config.TradeLoader
-me/masterofthefish/entitytrading/trades/Trade.java
- me.masterofthefish.entitytrading.trades.Trade
- me.masterofthefish.entitytrading.trades.Trade$TradeBuilder
 me/masterofthefish/entitytrading/EntityTrading.java
  me.masterofthefish.entitytrading.EntityTrading
-me/masterofthefish/entitytrading/trades/EntityTradeData.java
- me.masterofthefish.entitytrading.trades.EntityTradeData
 me/masterofthefish/entitytrading/listeners/TradeListener.java
  me.masterofthefish.entitytrading.listeners.TradeListener
-me/masterofthefish/entitytrading/trades/TradeLevel.java
- me.masterofthefish.entitytrading.trades.TradeLevel
